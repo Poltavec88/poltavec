@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internal Server Error</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<div th:replace="header"></div>
+<br>
+<h1 style="margin: 0 auto; width: max-content; padding: 1.5%;">500 / Internal Server Error</h1>
+<!--/*@thymesVar id="info" type="java"*/-->
+<h2 style="margin: 0 auto; width: max-content; padding: 1.5%;" th:text="${info}"></h2>
+</body>
+</html>

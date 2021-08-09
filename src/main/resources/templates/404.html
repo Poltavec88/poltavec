@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Not Found Error</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div th:replace="header"></div>
+<br>
+<h1 style="margin: 0 auto; width: max-content; padding: 1.5%;">404 / Not Found</h1>
+<!--/*@thymesVar id="info" type="java"*/-->
+<h2 style="margin: 0 auto; width: max-content; padding: 1.5%;" th:text="${info}"></h2>
+</body>
+</html>
